@@ -59,4 +59,3 @@ Through careful hyperparameter tuning, data augmentation, and loss optimization 
 ## Citation / Acknowledgement
 This is a demonstration project showcasing U-Net for medical image segmentation. Inspired by classic works such as Ronneberger et al. (U-Net) and the BraTS challenge.
 
-**License**: MIT (for this public demonstration code).
