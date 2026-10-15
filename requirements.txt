@@ -1,0 +1,14 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+nibabel
+scikit-image
+matplotlib
+plotly
+pandas
+tqdm
+albumentations
+monai  # Optional but recommended for medical imaging transforms
+pyvista  # For advanced 3D visualization
+vtk
+jupyter
