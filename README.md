@@ -53,8 +53,6 @@ python scripts/inference.py --input_path path/to/mri.nii.gz --model_path checkpo
 python scripts/visualize_3d.py --mri_path path/to/mri.nii.gz --mask_path path/to/prediction.nii.gz
 ```
 
-## Model Performance Notes
-Through careful hyperparameter tuning, data augmentation, and loss optimization (Dice + Cross-Entropy), the approach is capable of achieving overall accuracy rates exceeding 90% and strong Dice scores on tumor regions, even when tumor appearance closely matches adjacent tissue. Results depend on dataset quality and training duration.
 
 ## Citation / Acknowledgement
 This is a demonstration project showcasing U-Net for medical image segmentation. Inspired by classic works such as Ronneberger et al. (U-Net) and the BraTS challenge.
